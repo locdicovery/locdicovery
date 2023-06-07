@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gestion des examens</title>
+</head>
+<body>
+	<h1>Application de gestion des examens</h1>
+
+	<form>
+		<label for="nom">Nom:</label>
+		<input type="text" id="nom" name="nom"><br>
+
+		<label for="matiere">Matière:</label>
+		<select id="matiere" name="matiere">
+			<option value="maths">Mathématiques</option>
+			<option value="francais">Français</option>
+			<option value="physique">Physique</option>
+			<option value="histoire">Histoire</option>
+		</select><br>
+
+		<label for="note">Note:</label>
+		<input type="number" id="note" name="note"><br>
+
+		<label for="date">Date:</label>
+		<input type="date" id="date" name="date"><br>
+
+		<button type="submit">Ajouter</button>
+	</form>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Nom</th>
+				<th>Matière</th>
+				<th>Note</th>
+				<th>Date</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>John Doe</td>
+				<td>Mathématiques</td>
+				<td>18</td>
+				<td>2023-05-01</td>
+			</tr>
+			<tr>
+				<td>Jane Smith</td>
+				<td>Français</td>
+				<td>14</td>
+				<td>2023-05-02</td>
+			</tr>
+			<tr>
+				<td>Bob Johnson</td>
+				<td>Physique</td>
+				<td>16</td>
+				<td>2023-05-03</td>
+			</tr>
+			<tr>
+				<td>Alice Williams</td>
+				<td>Histoire</td>
+				<td>20</td>
+				<td>2023-05-04</td>
+			</tr>
+		</tbody>
+	</table>
+
+</body>
+</html>
